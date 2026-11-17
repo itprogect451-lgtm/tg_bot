@@ -19,7 +19,7 @@ from telebot import types
 
 # ================= НАСТРОЙКИ =================
 
-
+TEAM_FILE = 'team_ID.txt'
 
 bot = telebot.TeleBot(API_TOKEN, parse_mode='HTML')
 
